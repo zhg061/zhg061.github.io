@@ -101,7 +101,7 @@ class About extends React.Component {
             </Box>
             <Box>
             <img 
-            src="./graduation.JPG" 
+            src="./graduation.jpg" 
             alt="Picture"
             style={{ width: "80%", height: "auto" }}
              />
