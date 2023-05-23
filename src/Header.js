@@ -58,8 +58,8 @@ const Header = () => {
             >
               <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/';}}><AiOutlineHome/>&nbsp;Home</MenuItem>
               {/* <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/project';}}><GrProjects/>&nbsp;Projects</MenuItem> */}
-              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/resume';}}><RiFilePaperLine/>&nbsp;Resume</MenuItem>
-              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/about';}}><MdOutlinePersonOutline/>&nbsp;About</MenuItem>
+              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/resume';}}><RiFilePaperLine/>&nbsp;Resume</MenuItem>
+              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/about';}}><MdOutlinePersonOutline/>&nbsp;About</MenuItem>
             </Menu>
           </>
         ) : (
@@ -80,19 +80,19 @@ const Header = () => {
                   <span>Home</span>
                 </Box>
               </MenuItem >               
-              {/* <MenuItem align="center" onClick={()=>{window.location.href = '/project';}}>
+              {/* <MenuItem align="center" onClick={()=>{window.location.href = '/#/project';}}>
                 <Box display="flex" flexDirection="column">
                   <span><GrProjects/></span>
                   <span>Projects</span>
                 </Box>
               </MenuItem> */}
-              <MenuItem align="center" onClick={()=>{window.location.href = '/resume';}}>
+              <MenuItem align="center" onClick={()=>{window.location.href = '/#/resume';}}>
                 <Box display="flex" flexDirection="column">
                   <span><RiFilePaperLine/></span>
                   <span>Resume</span>
                 </Box>
               </MenuItem>
-              <MenuItem align="center" onClick={()=>{window.location.href = '/about';}}>
+              <MenuItem align="center" onClick={()=>{window.location.href = '/#/about';}}>
                 <Box display="flex" flexDirection="column">
                   <span><MdOutlinePersonOutline/></span>
                   <span>About</span>

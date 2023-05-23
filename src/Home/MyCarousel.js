@@ -27,7 +27,7 @@ const MyCarousel = () => {
                     backgroundColor: "gray",
                     alignItems: "center"
                 }}
-                onClick={()=>{window.location.href = '/resume';}}
+                onClick={()=>{window.location.href = '/#/resume';}}
                 >
                           {/* Image source: Unsplash (https://learn.g2.com/hubfs/IT%20Portfolio%20Management@2x.png) */}
                     <img 
@@ -51,7 +51,7 @@ const MyCarousel = () => {
                     backgroundColor: "gray",
                     alignItems: "center"
                 }}
-                onClick={()=>{window.location.href = '/about';}}
+                onClick={()=>{window.location.href = '/#/about';}}
                 >
                     <img 
                     src="./lucyfullbodypicture.JPG" 
