@@ -29,9 +29,9 @@ const MyCarousel = () => {
                 }}
                 onClick={()=>{window.location.href = '/#/resume';}}
                 >
-                          {/* Image source: Unsplash (https://learn.g2.com/hubfs/IT%20Portfolio%20Management@2x.png) */}
+                          {/* Image source: Unsplash (https://www.groovypost.com/wp-content/uploads/2022/11/creating-word-documents-featured-1000-600px.jpg) */}
                     <img 
-                    src="./resume.png" 
+                    src="./resume.JPG" 
                     alt="Resume" 
                     style={{ width: "60%", height: "auto" }}
                     />
