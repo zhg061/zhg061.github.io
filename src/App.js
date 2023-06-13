@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Routes, Route } from "react-router-dom";
-// import { Router, Route, hashHistory } from 'react-router';
 
 import Home from './Home/Home';
 import Header from './Header';
