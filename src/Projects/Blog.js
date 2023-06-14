@@ -22,25 +22,27 @@ const mainFeaturedPost = {
     "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
   image: 'https://source.unsplash.com/random',
   imageText: 'main image description',
-  linkText: 'Continue reading…',
+  linkText: 'Access the Website',
 };
 
 const featuredPosts = [
   {
-    title: 'Featured post',
-    date: 'Nov 12',
+    title: 'Cooking Blog',
+    date: 'June 12 2023',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+      'A simple Recipe Blog that used Node.js, MongoDB, bootstrap and other NPM packages. ',
+    image: './cooking_blog.png',
     imageLabel: 'Image Text',
+    link: 'https://cookingblog-lk8m.onrender.com/'
   },
   {
-    title: 'Post title',
-    date: 'Nov 11',
+    title: 'Artist Search',
+    date: 'June 12 2022',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+      'A user-friendly search interface that allows you to easily navigate through a vast database of artists from Artsy API. ',
+    image: './artsysearch.webp',
     imageLabel: 'Image Text',
+    link: 'https://search-artist.netlify.app/'
   },
 ];
 
@@ -60,14 +62,14 @@ export default function Blog() {
       <CssBaseline />
       <Container maxWidth="lg">
         <main>
-          <MainFeaturedPost post={mainFeaturedPost} />
+          {/* <MainFeaturedPost post={mainFeaturedPost} /> */}
           <Grid container spacing={4}>
             {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
             ))}
           </Grid>
           <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="From the firehose" posts={posts} />            
+            {/* <Main title="From the firehose" posts={posts} />             */}
           </Grid>
         </main>
       </Container>
