@@ -51,7 +51,7 @@ const MyCarousel = () => {
                     backgroundColor: "gray",
                     alignItems: "center"
                 }}
-                onClick={()=> window.open("https://search-artist.netlify.app/", "_blank")}
+                onClick={()=> window.open("https://cookingblog-lk8m.onrender.com/", "_blank")}
                 >
                     <img 
                     src="./cooking_blog.png" 
