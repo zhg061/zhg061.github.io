@@ -27,13 +27,61 @@ const MyCarousel = () => {
                     backgroundColor: "gray",
                     alignItems: "center"
                 }}
+                onClick={()=> window.open("https://search-artist.netlify.app/", "_blank")}
+                >
+                    <img 
+                    src="./artsysearch.webp" 
+                    alt="About" 
+                    height="10%"
+                    style={{ width: "55%", height: "auto" }}
+                    />
+                    <div
+                        style={{ 
+                            width: "20%", 
+                            color: "white", 
+                            fontSize: '1.5rem', 
+                            marginTop: '1%'
+                        }}
+                    >Artist Search Using Angular and NodeJS</div>
+                </div>
+                <div 
+                style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    backgroundColor: "gray",
+                    alignItems: "center"
+                }}
+                onClick={()=> window.open("https://search-artist.netlify.app/", "_blank")}
+                >
+                    <img 
+                    src="./cooking_blog.png" 
+                    alt="About" 
+                    height="10%"
+                    style={{ width: "40%", height: "auto", margin: "2%"  }}
+                    />
+                    <div
+                        style={{ 
+                            width: "20%", 
+                            color: "white", 
+                            fontSize: '1.5rem', 
+                            marginTop: '1%'
+                        }}
+                    >Cooking Blog Using Node.js and MongoDB</div>
+                </div>
+                <div 
+                style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    backgroundColor: "gray",
+                    alignItems: "center"
+                }}
                 onClick={()=>{window.location.href = '/#/resume';}}
                 >
                           {/* Image source: Unsplash (https://www.groovypost.com/wp-content/uploads/2022/11/creating-word-documents-featured-1000-600px.jpg) */}
                     <img 
                     src="./resume.JPG" 
                     alt="Resume" 
-                    style={{ width: "60%", height: "auto" }}
+                    style={{ width: "60%", height: "auto"}}
                     />
                     <div
                         style={{ 
@@ -68,6 +116,7 @@ const MyCarousel = () => {
                         }}
                     >About Me</div>
                 </div>
+
             </Carousel>
         </div>
     );
