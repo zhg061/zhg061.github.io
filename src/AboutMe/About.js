@@ -37,9 +37,9 @@ class About extends React.Component {
             style={{ width: "80%", height: "auto" }}
              />
             <p>Research Assistant & Master Student</p>
-            <p><FaMapMarkerAlt/> &nbsp;Pasadena, CA</p>
-            <p color="inherit" ><FaBook/> &nbsp;University of Southern California</p>
-            <p><FaEnvelope/> &nbsp;<Link color="inherit" href="mailto: zhaoyigu@usc.edu" className="email">Email</Link></p>	
+            <p><FaMapMarkerAlt/> &nbsp;New York</p>
+            <p color="inherit" ><FaBook/> &nbsp;USC</p>
+            <p><FaEnvelope/> &nbsp;<Link color="inherit" href="mailto: zhaoyilucyguo@gmail.com" className="email">Email</Link></p>	
             <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhg061" className="github" target="_blank">UCSD</Link></p>
             <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhaoyilucyguo" className="github" target="_blank">USC</Link></p>
     
@@ -53,85 +53,76 @@ class About extends React.Component {
           >
             <h2>Welcome to Lucy's Homepage!</h2>
             <ul>
+              <b>Proficient Frontend Engineer</b> and <b>Web Developer</b> with more than 3 years of experience building complex, responsive web designs, creating simple and engaging user interfaces, optimizing frontend code for top performance and scalability, and building reusable codes, components and libraries for future use.
+            </ul>
+            <ul>
+              Accomplished <b>Data Analyst</b> with over 5 years of experience in data mining, creating visualizations to support data explainability and predictive statistical analysis
+            </ul>
+            <ul>
+              Excellent communicator and collaborator, adept at bridging engineering technology information and full spectrum of specialized engineering staff including: designers, frontend and backend engineers, and AI engineers, with customer and project goals for best outcomes
+            </ul>
+            <h2>Education</h2>
+            <ul>
+              <h3>Master of Science, Computer Science (August 2023)</h3>
               <p>
-              Hello, my name is Lucy. I am excited to have the opportunity to share a bit about myself. 
-              I believe that each person's journey is unique and shaped by various experiences and passions. 
-              Allow me to take you on a brief tour of my life and interests.
+              University of Southern California
+              Los Angeles, CA
+              </p>
+              <h3>Bachelor of Science, Data Science (June2021)</h3>
+              <p>
+              University of California, San Diego
+              San Diego, CA
               </p>
             </ul>
-            <h2>Background</h2>
+            <h2>Core Competencies & Skills</h2>         
             <ul>
               <p>
-              I was born and raised in Qingdao, China. At age of 15, I went to America for education. 
-              Away from family, I learned to be independent like studying without supervision and doing my own chores. 
-              Also, growing up in different communities has greatly influenced my 
-              perspective on life. It has taught me the values of inclusivity, open-mindedness, 
-              and the importance of embracing different cultures and ideas. 
-              </p>
-            </ul>
-            <h2>Education and Career</h2>
-            <Box display="flex">
-            
-            <Box>
-            
-            
-            <ul>
-              <p>I pursued my undergraduate degree at University of California, San Diego where I studied Data Science.
-              Now, I'm at University of Southern California where I studied Computer Science. 
-              Throughout my academic journey, I’m constantly pushing my limits as I delve into the worlds of hard web application problems, 
-              refining my knowledge in JavaScript, React, React Native, and GraphicQL. 
-              It has revealed to me how complex the role of a software engineer is, 
-              and I realize that is so much more I need to explore within this realm.
-              Thus, the culmination of these projects and work experiences have given me a strong passion for web application. 
-                This led me to work in the related fields. 
-                I have had the privilege of working at Interactive Neurorehabilitation Lab for a year, 
-                where I have gained valuable experience and honed my skills in UI/UX and data management.</p> 
+                HTML + CSS | Client-Side Scripting & JavaScript Frameworks (React, Typescript, Bootstrap, Java) | 
+                Project Management | Backend Programing (Node.js, Python, c++ & APIS) | Microsoft SQL Server & MongoDB |
+                Power BL, PowerApps & Power Automate |Git | Search Platforms/Engines (Lunr & Solr) | ML Models |
+</p> 
             </ul>
             <h2>
-            Passions and Hobbies
+            Professional Experience
             </h2>
-            <ul>        
-              <p> Outside of my professional life, I have a variety of passions and hobbies that bring me joy and fulfillment. 
-                One of my greatest passions is cooking. Whether it's learning a new recipe, improvising a new dish, or cooking for friends and family, 
-                I find immense satisfaction in dedicating time to this pursuit. 
-                Additionally, I enjoy exercising such as pilates, weight training, and boxing. These activities help me unwind, explore my creativity, 
-                and maintain a balanced lifestyle.
+            <ul>   
+              <h3>Web Development and Data Analysis Specialist 	
+Research Assistant</h3>  
+              <p>Interactive Neuro Rehabilitation Lab, USC
+(2022-2023), Los Angeles, CA</p>
+              <p> 						 							
+Developed web applications at INR for human-centric, explainable artificial intelligence system for evaluating stroke rehabilitation. Communicated closely with expert clinical therapists and team members to understand their unique requirements in order to capture high-quality data. 
+Developed responsive web applications using React and Material UI allowing users to segment and rate patients’ movements. Improved performance of web application by creating reusable components
+Developed a RESTful API using Node.js and Express, connected to Swagger API and Microsoft SQL Management Studio database. API retrieved and processed data from database and displayed it to the front end. Implemented a caching mechanism to improve response time and reduce load on the database.
+Maintained and optimized Microsoft SQL Management Studio databases for both segmentation and rating. Analyzed and extracted insights from database using SQL and Python libraries including Pandas and NumPy. Pushed and retrieved data in batches and developed custom scripts to automate data analysis on user behavior.
+
+
+              </p>
+              <h3>Web Designer and Data Analysis Specialist (Intern)	
+(2021)</h3> 
+              <p>Bosch Automotive Products Co., Suzhou, China</p>
+              <p>								
+              Scraped data from Bosch’s internal website, and used data to build PowerBI KPI reports. With these reports, Product Managers visualize projects and status of issues, as well as oversee unusual trends   All reports remain up-to-date, and well-organized in MSTeams to promote easy access.
+              Solved pain points of Bosch’s long training process by building online training system using PowerApps and PowerAutomate, enabling more functionalities and saving time compared to original training process. This online training system has been in use since Sept 2022.
+              
+              </p>
+              <h3>Data Analysis and Machine Learning Specialist	
+              (2019)</h3>   
+              <p>The Coca Cola Company, Shanghai, China</p>
+              <p>						
+              Collaborated with team of six on FSE (Flawless Segmented Execution), a business framework that equips teams with data processing tools needed to identify optimal sales points in Beijing to maximize profitability.
+              Gathered and preprocessed large-scale datasets including geographical data, customer demographics and sales records. Utilized techniques such as feature engineering, dimensionality reduction, and model evaluation to enhance the accuracy and effectiveness of predictive model. Collaborated with domain experts, and business stakeholders to interpret and validate potential impact on revenue growth and cost optimization.
               </p>
             </ul>
             </Box>
-            <Box>
+            {/* <Box>
             <img 
             src="./graduation.jpg" 
             alt="Picture"
             style={{ width: "80%", height: "auto" }}
              />
-            </Box>
-            </Box>
-            
-            <h2>
-              Personal Values
-            </h2>
-            <ul>
-              <p>            
-                My core values are deeply rooted in balance, attitude, and perseverance. 
-                I value balance in all aspects of life. I strive to maintain a harmonious equilibrium between work, family, personal pursuits, and self-care. I believe that balance fosters well-being, productivity, and overall satisfaction.
-                I prioritize maintaining a positive and optimistic attitude in all situations. I believe that a positive mindset can greatly influence outcomes and inspire others. I approach challenges with a solution-oriented mindset, seeking opportunities for growth and learning.
-                Lastly, I believe in the power of perseverance and the ability to overcome challenges. 
-                I am committed to pushing through obstacles, staying resilient, and continuously striving for personal and 
-                professional growth.
-              </p>
-            </ul>
-          <h2>
-          Goals and Aspirations
-          </h2>
-            <ul>
-              <p>
-Looking ahead, my goal is to find a job that aligns with my skills, passions, and values. 
-I am learning new things, preparing my job application and connecting with people in order to achieve this objective. 
-I believe that continuous learning and personal growth are essential for success and I am committed to pursuing opportunities that challenge me to evolve both personally and professionally.</p>
-            </ul>
-          </Box>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-    </Box>
+            </Box> */}
+      </Box>
     </div>
     );
   }

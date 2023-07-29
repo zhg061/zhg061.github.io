@@ -44,7 +44,7 @@ function Footer(props) {
           <FaGithub />2017-2021
           </Link>{' '}
           <Link color="inherit" 
-          href="mailto:lucyguo0803@gmail.com"
+          href="mailto:zhaoyilucyguo@gmail.com"
           onClick={()=>{window.open("mailto:lucyguo0803@gmail.com");}}>
           <FaEnvelope /> Email
           </Link>{' '}

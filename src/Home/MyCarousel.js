@@ -75,30 +75,6 @@ const MyCarousel = () => {
                     backgroundColor: "gray",
                     alignItems: "center"
                 }}
-                onClick={()=>{window.location.href = '/#/resume';}}
-                >
-                          {/* Image source: Unsplash (https://www.groovypost.com/wp-content/uploads/2022/11/creating-word-documents-featured-1000-600px.jpg) */}
-                    <img 
-                    src="./resume.JPG" 
-                    alt="Resume" 
-                    style={{ width: "60%", height: "auto"}}
-                    />
-                    <div
-                        style={{ 
-                            width: "20%", 
-                            color: "white", 
-                            fontSize: '2rem', 
-                            marginTop: '1%'
-                        }}
-                    >Resume</div>
-                </div>
-                <div 
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    backgroundColor: "gray",
-                    alignItems: "center"
-                }}
                 onClick={()=>{window.location.href = '/#/about';}}
                 >
                     <img 

@@ -44,6 +44,24 @@ const featuredPosts = [
     imageLabel: 'Image Text',
     link: 'https://search-artist.netlify.app/'
   },
+  {
+    title: 'Gene Expression Analysis',
+    date: 'March 12 2021',
+    description:
+      'Obtained the opioid abusers and control’s data. Cleaned the data, and performed various gene expression analysis. Presented genome-wide changes in gene expression associated with human opioid abuse.',
+    image: './opioidabuse.jpeg',
+    imageLabel: 'Image Text',
+    link: 'https://dsc-capstone.org/projects-2020-2021/reports/project_70.pdf'
+  },
+  {
+    title: 'Movie Rating Prediction',
+    date: 'March 12 2021',
+    description:
+      'Acquired the movie datasets from Kaggle and preprocessed the data. Employed feature engineering technique of Lasso Regression. Constructed the data model to forecast movie ratings.',
+    image: './movie.jpg',
+    imageLabel: 'Image Text',
+    link: ''
+  },
 ];
 
 const posts = [post1, post2, post3];
