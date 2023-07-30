@@ -8,7 +8,7 @@ function Resume() {
       <Typography 
       align="center" 
       sx={{fontSize: '2rem' }}>
-        Resume
+        Skills
       </Typography>  
     <Box 
     display="flex"

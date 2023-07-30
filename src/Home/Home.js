@@ -1,12 +1,14 @@
 import React from 'react';
-import MyCarousel from './MyCarousel';
+import { Banner } from './Banner';
+import { Skills } from './Skills';
 
 
 const Home = () => {
 
   return (
     <div >
-      <MyCarousel/>       
+      <Banner/>
+      {/* <Skills/> */}
     </div>
   );
 };
