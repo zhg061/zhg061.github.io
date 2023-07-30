@@ -38,7 +38,7 @@ class About extends React.Component {
              />
             <p>Research Assistant & Master Student</p>
             <p><FaMapMarkerAlt/> &nbsp;New York</p>
-            <p color="inherit" ><FaBook/> &nbsp;USC</p>
+            <p color="inherit" ><FaBook/> &nbsp;UCSD, USC</p>
             <p><FaEnvelope/> &nbsp;<Link color="inherit" href="mailto: zhaoyilucyguo@gmail.com" className="email">Email</Link></p>	
             <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhg061" className="github" target="_blank">UCSD</Link></p>
             <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhaoyilucyguo" className="github" target="_blank">USC</Link></p>
@@ -79,7 +79,7 @@ class About extends React.Component {
               <p>
                 HTML + CSS | Client-Side Scripting & JavaScript Frameworks (React, Typescript, Bootstrap, Java) | 
                 Project Management | Backend Programing (Node.js, Python, c++ & APIS) | Microsoft SQL Server & MongoDB |
-                Power BL, PowerApps & Power Automate |Git | Search Platforms/Engines (Lunr & Solr) | ML Models |
+                Sharepoints, Power BI, PowerApps & Power Automate |Git | ML Models |
 </p> 
             </ul>
             <h2>
