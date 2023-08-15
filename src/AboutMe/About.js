@@ -87,7 +87,7 @@ class About extends React.Component {
             </h2>
             <ul>   
               <h3>Web Development and Data Analysis Specialist 	
-Research Assistant</h3>  
+(Research Assistant)</h3>  
               <p>Interactive Neuro Rehabilitation Lab, USC
 (2022-2023), Los Angeles, CA</p>
               <p> 						 							
@@ -99,16 +99,16 @@ Maintained and optimized Microsoft SQL Management Studio databases for both segm
 
               </p>
               <h3>Web Designer and Data Analysis Specialist (Intern)	
-(2021)</h3> 
-              <p>Bosch Automotive Products Co., Suzhou, China</p>
+</h3> 
+              <p>Bosch Automotive Products Co. (2021), Suzhou, China</p>
               <p>								
               Scraped data from Bosch’s internal website, and used data to build PowerBI KPI reports. With these reports, Product Managers visualize projects and status of issues, as well as oversee unusual trends   All reports remain up-to-date, and well-organized in MSTeams to promote easy access.
               Solved pain points of Bosch’s long training process by building online training system using PowerApps and PowerAutomate, enabling more functionalities and saving time compared to original training process. This online training system has been in use since Sept 2022.
               
               </p>
-              <h3>Data Analysis and Machine Learning Specialist	
-              (2019)</h3>   
-              <p>The Coca Cola Company, Shanghai, China</p>
+              <h3>Data Analysis and Machine Learning Specialist	 (Intern)
+              </h3>   
+              <p>The Coca Cola Company (2019), Shanghai, China</p>
               <p>						
               Collaborated with team of six on FSE (Flawless Segmented Execution), a business framework that equips teams with data processing tools needed to identify optimal sales points in Beijing to maximize profitability.
               Gathered and preprocessed large-scale datasets including geographical data, customer demographics and sales records. Utilized techniques such as feature engineering, dimensionality reduction, and model evaluation to enhance the accuracy and effectiveness of predictive model. Collaborated with domain experts, and business stakeholders to interpret and validate potential impact on revenue growth and cost optimization.
