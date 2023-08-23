@@ -1,6 +1,8 @@
 import React from 'react';
 import { Box, Link } from '@mui/material';
 import { FaLinkedin, FaGithub, FaEnvelope, FaMapMarkerAlt, FaBook } from "react-icons/fa";
+import { Skills } from '../Home/Skills';
+import "./styles.css";
 
 
 
@@ -68,28 +70,32 @@ class About extends React.Component {
               University of Southern California
               Los Angeles, CA
               </p>
+              <img 
+                src="./USC_logo.jpeg" 
+                alt="USC"
+                style={{ width: "10%", height: "auto" }}
+              />
               <h3>Bachelor of Science, Data Science (June2021)</h3>
               <p>
               University of California, San Diego
               San Diego, CA
               </p>
+              <img 
+                src="./UCSD_logo.png" 
+                alt="UCSD"
+                style={{ width: "10%", height: "auto" }}
+              />
             </ul>
-            <h2>Core Competencies & Skills</h2>         
-            <ul>
-              <p>
-                HTML + CSS | Client-Side Scripting & JavaScript Frameworks (React, Typescript, Bootstrap, Java) | 
-                Project Management | Backend Programing (Node.js, Python, c++ & APIS) | Microsoft SQL Server & MongoDB |
-                Sharepoints, Power BI, PowerApps & Power Automate |Git | ML Models |
-</p> 
-            </ul>
+            <h2>Core Competencies & Skills</h2>  
+            <Skills/>       
             <h2>
             Professional Experience
             </h2>
             <ul>   
               <h3>Web Development and Data Analysis Specialist 	
 (Research Assistant)</h3>  
-              <p>Interactive Neuro Rehabilitation Lab, USC
-(2022-2023), Los Angeles, CA</p>
+              <p><a href="https://sites.usc.edu/inr/">Interactive Neuro Rehabilitation Lab, USC
+(2022-2023), Los Angeles, CA</a></p>
               <p> 						 							
 Developed web applications at INR for human-centric, explainable artificial intelligence system for evaluating stroke rehabilitation. Communicated closely with expert clinical therapists and team members to understand their unique requirements in order to capture high-quality data. 
 Developed responsive web applications using React and Material UI allowing users to segment and rate patients’ movements. Improved performance of web application by creating reusable components
@@ -106,6 +112,11 @@ Maintained and optimized Microsoft SQL Management Studio databases for both segm
               Solved pain points of Bosch’s long training process by building online training system using PowerApps and PowerAutomate, enabling more functionalities and saving time compared to original training process. This online training system has been in use since Sept 2022.
               
               </p>
+              <img 
+                src="./Bosch_logo.jpg" 
+                alt="Bosch"
+                style={{ width: "10%", height: "auto" }}
+              />
               <h3>Data Analysis and Machine Learning Specialist	 (Intern)
               </h3>   
               <p>The Coca Cola Company (2019), Shanghai, China</p>
@@ -113,6 +124,11 @@ Maintained and optimized Microsoft SQL Management Studio databases for both segm
               Collaborated with team of six on FSE (Flawless Segmented Execution), a business framework that equips teams with data processing tools needed to identify optimal sales points in Beijing to maximize profitability.
               Gathered and preprocessed large-scale datasets including geographical data, customer demographics and sales records. Utilized techniques such as feature engineering, dimensionality reduction, and model evaluation to enhance the accuracy and effectiveness of predictive model. Collaborated with domain experts, and business stakeholders to interpret and validate potential impact on revenue growth and cost optimization.
               </p>
+              <img 
+                src="./Cocacola_logo.jpg" 
+                alt="Cocacola"
+                style={{ width: "10%", height: "auto" }}
+              />
             </ul>
             </Box>
             {/* <Box>

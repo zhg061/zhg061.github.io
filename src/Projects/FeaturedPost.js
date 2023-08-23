@@ -25,7 +25,7 @@ function FeaturedPost(props) {
               {post.description}
             </Typography>
             <Typography variant="subtitle1" color="primary">
-              Access the website
+            Access the {post.media}
             </Typography>
           </CardContent>
           <CardMedia
