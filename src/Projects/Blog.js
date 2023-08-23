@@ -13,7 +13,7 @@ import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
 import MyCarousel from './MyCarousel';
-import { Fitness } from './Fitness';
+// import { Fitness } from './Fitness';
 
 
 
@@ -98,7 +98,7 @@ export default function Blog() {
     <ThemeProvider theme={theme}>
       <MyCarousel/> 
       <CssBaseline />
-      <Fitness/>
+      {/* <Fitness/> */}
       <Container maxWidth="lg">
         <main>
           {/* <MainFeaturedPost post={mainFeaturedPost} /> */}
