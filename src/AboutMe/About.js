@@ -16,7 +16,7 @@ class About extends React.Component {
     }
   }
   async componentDidMount(){
-    await axios.get('http://localhost:5000/jobs-edu').then(
+    await axios.get('https://lucyporfoliobackend-a266447ba206.herokuapp.com/jobs-edu').then(
       res => {
         this.setState( { jobs: res.data.filter(list => list.Type === "job")});
         this.setState( { edu: res.data.filter(list => list.Type === "education")});
