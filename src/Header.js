@@ -57,7 +57,7 @@ const Header = () => {
               onClose={handleClose}
             >
               <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/';}}><AiOutlineHome/>&nbsp;Home</MenuItem>
-              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/project';}}><GrProjects/>&nbsp;Projects</MenuItem>
+              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/experience';}}><GrProjects/>&nbsp;Projects</MenuItem>
               {/* <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/resume';}}><RiFilePaperLine/>&nbsp;Skills</MenuItem> */}
               <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/about';}}><MdOutlinePersonOutline/>&nbsp;About</MenuItem>
             </Menu>
@@ -80,10 +80,10 @@ const Header = () => {
                   <span>Home</span>
                 </Box>
               </MenuItem >               
-              <MenuItem align="center" onClick={()=>{window.location.href = '/#/project';}}>
+              <MenuItem align="center" onClick={()=>{window.location.href = '/#/experience';}}>
                 <Box display="flex" flexDirection="column">
                   <span><GrProjects/></span>
-                  <span>Projects</span>
+                  <span>Experience</span>
                 </Box>
               </MenuItem>
               {/* <MenuItem align="center" onClick={()=>{window.location.href = '/#/resume';}}>
@@ -95,7 +95,7 @@ const Header = () => {
               <MenuItem align="center" onClick={()=>{window.location.href = '/#/about';}}>
                 <Box display="flex" flexDirection="column">
                   <span><MdOutlinePersonOutline/></span>
-                  <span>About</span>
+                  <span>About Me</span>
                 </Box>
               </MenuItem>
             </Box>

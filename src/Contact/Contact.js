@@ -27,7 +27,8 @@ export const Contact = () => {
     setButtonText("Sending...");
     try {
       const response = await axios.post(
-        'https://lucyporfoliobackend-a266447ba206.herokuapp.com/send-email',
+        // 'https://lucyporfoliobackend-a266447ba206.herokuapp.com/send-email',
+        'http://localhost:5000/send-email',
         formDetails
       );
       console.log(formDetails);
