@@ -28,6 +28,7 @@ export default function Blog() {
     <ThemeProvider theme={theme}>
       <MyCarousel/> 
       <CssBaseline />
+      {/* <Tableau/> */}
       {/* <Fitness/> */}
       <Container maxWidth="lg">
         <main>

@@ -56,10 +56,9 @@ const Header = () => {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/';}}><AiOutlineHome/>&nbsp;Home</MenuItem>
-              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/experience';}}><GrProjects/>&nbsp;Projects</MenuItem>
-              {/* <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/resume';}}><RiFilePaperLine/>&nbsp;Skills</MenuItem> */}
-              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/about';}}><MdOutlinePersonOutline/>&nbsp;About</MenuItem>
+              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/'; setAnchorEl(null);}}><AiOutlineHome/>&nbsp;Home</MenuItem>
+              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/experience'; setAnchorEl(null);}}><GrProjects/>&nbsp;Experience</MenuItem>
+              <MenuItem onClick={handleClose} onClick={()=>{window.location.href = '/#/about'; setAnchorEl(null);}}><MdOutlinePersonOutline/>&nbsp;About Me</MenuItem>
             </Menu>
           </>
         ) : (
@@ -80,18 +79,14 @@ const Header = () => {
                   <span>Home</span>
                 </Box>
               </MenuItem >               
-              <MenuItem align="center" onClick={()=>{window.location.href = '/#/experience';}}>
+              <MenuItem align="center" 
+              onClick={()=>{window.location.href = '/#/experience';}}
+              >
                 <Box display="flex" flexDirection="column">
                   <span><GrProjects/></span>
                   <span>Experience</span>
                 </Box>
               </MenuItem>
-              {/* <MenuItem align="center" onClick={()=>{window.location.href = '/#/resume';}}>
-                <Box display="flex" flexDirection="column">
-                  <span><RiFilePaperLine/></span>
-                  <span>Skills</span>
-                </Box>
-              </MenuItem> */}
               <MenuItem align="center" onClick={()=>{window.location.href = '/#/about';}}>
                 <Box display="flex" flexDirection="column">
                   <span><MdOutlinePersonOutline/></span>
