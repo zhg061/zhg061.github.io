@@ -11,7 +11,10 @@ export const Skills = (props) =>{
   const [skills, setSkills] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      await axios.get('http://localhost:5000/skills').then(
+      await axios.get(
+        // 'http://localhost:5000/skills'
+        'https://lucyporfoliobackend-a266447ba206.herokuapp.com/skills'
+        ).then(
       res=>{
         setSkills(res.data);
       }

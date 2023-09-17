@@ -16,7 +16,10 @@ export default function Blog() {
   const [featuredPosts, setProjects] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      await axios.get('http://localhost:5000/projects').then(
+      await axios.get(
+        // 'http://localhost:5000/projects'
+        'https://lucyporfoliobackend-a266447ba206.herokuapp.com/projects'
+        ).then(
       res=>{
         setProjects(res.data);
       }
