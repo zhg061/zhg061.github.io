@@ -11,7 +11,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
-      {"© "+ new Date().getFullYear() + " Zhaoyi(Lucy) Guo. All rights reserved."}
+      {"© "+ new Date().getFullYear() + " Lucy Guo. All rights reserved."}
     </Typography>
   );
 }
@@ -37,15 +37,12 @@ function Footer(props) {
           <Link color="inherit" href="https://linkedin.com/in/zhaoyi-guo/">
           <FaLinkedin />LinkedIn
           </Link>{' '}
-          <Link color="inherit" href="https://github.com/zhaoyilucyguo">
-          <FaGithub />2021-2023
-          </Link>{' '}
           <Link color="inherit" href="https://github.com/zhg061">
-          <FaGithub />2017-2021
+          <FaGithub />Git
           </Link>{' '}
           <Link color="inherit" 
           href="mailto:zhaoyilucyguo@gmail.com"
-          onClick={()=>{window.open("mailto:lucyguo0803@gmail.com");}}>
+          onClick={()=>{window.open("mailto:zhaoyilucyguo@gmail.com");}}>
           <FaEnvelope /> Email
           </Link>{' '}
         </Typography>

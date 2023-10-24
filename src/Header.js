@@ -29,7 +29,9 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="static"  sx={{ backgroundColor: 'transparent', boxShadow: 'none', color: '#3d3d3d' }}>
+    <AppBar 
+    position="static"  
+    sx={{ backgroundColor: 'transparent', boxShadow: 'none', color: '#3d3d3d' }}>
       <Toolbar>
       <Box height={100}></Box>
         {isSmallScreen ? (

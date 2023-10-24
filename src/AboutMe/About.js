@@ -56,13 +56,10 @@ class About extends React.Component {
           alt="Picture"
           style={{ width: "80%", height: "auto" }}
             />
-          <p>Research Assistant & Master Student</p>
+          <p>Data Scientist & Business Analyst</p>
           <p><FaMapMarkerAlt/> &nbsp;New York</p>
-          <p color="inherit" ><FaBook/> &nbsp;UCSD, USC</p>
           <p><FaEnvelope/> &nbsp;<Link color="inherit" href="mailto: zhaoyilucyguo@gmail.com" className="email">Email</Link></p>	
-          <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhg061" className="github" target="_blank">UCSD</Link></p>
-          <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhaoyilucyguo" className="github" target="_blank">USC</Link></p>
-  
+          <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhg061" className="github" target="_blank">Github</Link></p>  
           <p><FaLinkedin/> &nbsp;<Link color="inherit" href="https://www.linkedin.com/in/zhaoyi-guo/" className="linkedin" target="_blank">LinkedIn</Link></p>
   
         </Box>
@@ -72,14 +69,14 @@ class About extends React.Component {
         }}
         >
           <h2>Welcome to Lucy's Homepage!</h2>
-          <ul>
+          {/* <ul>
             <b>Proficient Frontend Engineer</b> and <b>Web Developer</b> with more than 3 years of experience building complex, responsive web designs, creating simple and engaging user interfaces, optimizing frontend code for top performance and scalability, and building reusable codes, components and libraries for future use.
+          </ul> */}
+          <ul>
+            Data Analyst with over 5 years of experience in data mining, creating visualizations to support data explainability and predictive statistical analysis
           </ul>
           <ul>
-            Accomplished <b>Data Analyst</b> with over 5 years of experience in data mining, creating visualizations to support data explainability and predictive statistical analysis
-          </ul>
-          <ul>
-            Excellent communicator and collaborator, adept at bridging engineering technology information and full spectrum of specialized engineering staff including: designers, frontend and backend engineers, and AI engineers, with customer and project goals for best outcomes
+            Communicator and collaborator, adept at bridging engineering technology information and full spectrum of specialized engineering staff including: designers, frontend and backend engineers, and AI engineers, with customer and project goals for best outcomes
           </ul>
          
           <h2>Education</h2>
@@ -123,7 +120,7 @@ class About extends React.Component {
           <Skills/> 
           <h2>
           Professional Experience
-          </h2>
+          </h2> 
           <Jobs/>              
         </Box>
       </Box>

@@ -29,7 +29,7 @@ export default function Blog() {
   }, []); 
   return (
     <ThemeProvider theme={theme}>
-      <MyCarousel/> 
+      {/* <MyCarousel/>  */}
       <CssBaseline />
       {/* <Tableau/> */}
       {/* <Fitness/> */}

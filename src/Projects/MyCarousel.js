@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './MyCarousel.css' 
 
 
 const MyCarousel = () => {
+    const [featuredPosts, setProjects] = useState([]);
+    useEffect(() => {
+        async function fetchData() {
+        await axios.get(
+                // 'http://localhost:5000/projects'
+                'https://lucyporfoliobackend-a266447ba206.herokuapp.com/projects'
+            ).then(
+                res=>{
+                    setProjects(res.data);
+                }
+            )
+        }    
+        fetchData();
+    }, []); 
     return (
         <div 
         style={{ marginBottom: 50 }}
@@ -20,20 +35,20 @@ const MyCarousel = () => {
                 showThumbs={false}
                 slidesToShow={1}
             >
+            {featuredPosts.map((post) => (            
                 <div 
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    backgroundColor: "gray",
-                    alignItems: "center"
-                }}
-                onClick={()=> window.open("https://search-artist.netlify.app/", "_blank")}
+                    style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        backgroundColor: "gray",
+                        alignItems: "center"
+                    }}
+                    onClick={()=> window.open(post.link, "_blank")}
                 >
                     <img 
-                    src="./artsysearch.webp" 
+                    src={post.image} 
                     alt="About" 
-                    height="10%"
-                    style={{ width: "56%", height: "auto" }}
+                    style={{ width: "50%", height: "50%" }}
                     />
                     <div
                         style={{ 
@@ -42,32 +57,9 @@ const MyCarousel = () => {
                             fontSize: '1.5rem', 
                             marginTop: '1%'
                         }}
-                    >Artist Search Using Angular and NodeJS</div>
+                    >{post.title}</div>
                 </div>
-                <div 
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    backgroundColor: "gray",
-                    alignItems: "center"
-                }}
-                onClick={()=> window.open("https://cookingblog-lk8m.onrender.com/", "_blank")}
-                >
-                    <img 
-                    src="./cooking_blog.png" 
-                    alt="About" 
-                    height="10%"
-                    style={{ width: "40%", height: "auto", margin: "2%"  }}
-                    />
-                    <div
-                        style={{ 
-                            width: "20%", 
-                            color: "white", 
-                            fontSize: '1.5rem', 
-                            marginTop: '1%'
-                        }}
-                    >Cooking Blog Using Node.js and MongoDB</div>
-                </div>
+            ))}
             </Carousel>
         </div>
     );

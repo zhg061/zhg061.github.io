@@ -24,13 +24,13 @@ export const Skills = (props) =>{
   }, []); 
       return (
         <section className="skills" id="skills">
-          <div style={{ display: 'flex' }}>
+          {/* <div style={{ display: 'flex' }}>
             {
               skills.filter(skill => skill.type === "SDE").map(skill=>
                 <RadarChart data={skill.content} key={skill.name}/>)
             }
-          </div>
-          <div style={{ display: 'flex' }}>
+          </div> */}
+          <div style={{ display: 'flex', width: '100%', justifyContent: 'center' }}>
             {
               skills.filter(skill => skill.type === "DS").map(skill=>
                 <RadarChart data={skill.content} key={skill.name} />)
