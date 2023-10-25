@@ -56,7 +56,7 @@ class About extends React.Component {
           alt="Picture"
           style={{ width: "80%", height: "auto" }}
             />
-          <p>Data Scientist & Business Analyst</p>
+          <p>Data Scientist & Data Analyst</p>
           <p><FaMapMarkerAlt/> &nbsp;New York</p>
           <p><FaEnvelope/> &nbsp;<Link color="inherit" href="mailto: zhaoyilucyguo@gmail.com" className="email">Email</Link></p>	
           <p><FaGithub/> &nbsp;<Link color="inherit" href="https://github.com/zhg061" className="github" target="_blank">Github</Link></p>  

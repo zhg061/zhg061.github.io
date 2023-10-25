@@ -5,6 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import { Router, Route, Link } from 'react-router';
 import { Routes, BrowserRouter, HashRouter, Route } from "react-router-dom";
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+  gtmId: 'G-GV13P6F862'
+}
+TagManager.initialize(tagManagerArgs)
 
 
 

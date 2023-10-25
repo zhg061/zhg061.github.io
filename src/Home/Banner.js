@@ -6,7 +6,7 @@ import "./Banner.css";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Data Scientist", "Business Analyst"];
+    const toRotate = ["Data Scientist", "Data Analyst"];
     const [text, setText] = useState('');
     const period = 2000;
     const [delta, setDelta] = useState(300 - Math.random()*100);
